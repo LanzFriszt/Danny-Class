@@ -3,7 +3,7 @@ from random import randint
 #Problem 1
 print (randint(1,10))
 #Problem 2
-for i in range(int(sqrt(10000))+1):
+for i in range(1,int(sqrt(10000))+1):
     print (i**2)
 #Problem 3
 abab = open("abab.txt", "r").readlines()[0]
